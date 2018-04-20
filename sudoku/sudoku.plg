@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sudoku - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPDC1F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/sudoku.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\C工程\sudoku\sudoku\sudoku.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPDC1F.tmp" 
+<h3>Output Window</h3>
+Compiling...
+sudoku.cpp
+f:\microsoft visual studio\vc98\include\eh.h(51) : warning C4101: 'L' : unreferenced local variable
+f:\c工程\sudoku\sudoku\sudoku.cpp(27) : error C2374: 'i' : redefinition; multiple initialization
+        f:\c工程\sudoku\sudoku\sudoku.cpp(17) : see declaration of 'i'
+f:\c工程\sudoku\sudoku\sudoku.cpp(242) : error C2374: 'i' : redefinition; multiple initialization
+        f:\c工程\sudoku\sudoku\sudoku.cpp(221) : see declaration of 'i'
+f:\c工程\sudoku\sudoku\sudoku.cpp(341) : error C2374: 'i' : redefinition; multiple initialization
+        f:\c工程\sudoku\sudoku\sudoku.cpp(306) : see declaration of 'i'
+f:\c工程\sudoku\sudoku\sudoku.cpp(354) : error C2374: 'k' : redefinition; multiple initialization
+        f:\c工程\sudoku\sudoku\sudoku.cpp(325) : see declaration of 'k'
+f:\c工程\sudoku\sudoku\sudoku.cpp(370) : error C2374: 'i' : redefinition; multiple initialization
+        f:\c工程\sudoku\sudoku\sudoku.cpp(306) : see declaration of 'i'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+sudoku.obj - 5 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
